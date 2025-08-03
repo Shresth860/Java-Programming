@@ -24,3 +24,4 @@ public class SearchIn2DArray{
         return new int[]{-1,-1};
     }
 }
+// time-complexcity=O(n^2).
