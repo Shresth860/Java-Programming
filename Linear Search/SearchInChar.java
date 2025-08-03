@@ -13,3 +13,5 @@ public class SearchInChar{
         return -1;
     }
 }
+
+// time-complexcity=O(n).
