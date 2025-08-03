@@ -14,3 +14,5 @@ public class SearchInRange{
         return false;
     }
 }
+// time-complexcity =O(n).
+// in this question we are only using range except interate in whole array.
