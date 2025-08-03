@@ -8,14 +8,14 @@ public class MultiDim{
         // declaring the arraylist
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         // now initialize the array list using for loop 
-        for(int i=0;i<4;i++){
+        for(int i=0;i<3;i++){
            list.add(new ArrayList<>());
         }
 
 
         // Adding element in arraylist
-        for(int i=0;i<4;i++){
-            for(int j=0;j<4;j++){
+        for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
                 list.get(i).add(sc.nextInt());
             }
         }
