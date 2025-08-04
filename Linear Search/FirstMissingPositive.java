@@ -25,3 +25,4 @@ public class FirstMissingPositive{
         return nums.length+1;
     }
 }
+// time-complexcity=O(n).
