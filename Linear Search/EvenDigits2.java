@@ -12,6 +12,7 @@ public class EvenDigits2{
         }
         return count;
     }
+    // this function will check that element in array are even or not.
     static boolean even(int num){
         int Digit=DigitInNumber(num);
         if(Digit%2==0){
@@ -19,6 +20,7 @@ public class EvenDigits2{
         }
         return false;
     }
+    // this function will count the length of the element in array
     static int DigitInNumber(int num){
         if(num<0){
             num*=-1;
@@ -34,3 +36,4 @@ public class EvenDigits2{
         return count;
     }
 }
+// time-complexcity=O(n).
