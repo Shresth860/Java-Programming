@@ -11,15 +11,13 @@ public class PeakElementInMountainArray{
         int st=0,end=arr.length-1;
         while(st<=end){
             int mid=st+(end-st)/2;
-            if(arr[mid]>arr[mid-1]&& arr[mid]>arr[mid+1]){
-                return arr[mid];
-            }else if(arr[mid]>arr[mid-1] && arr[mid]<arr[mid+1]){
+            if(arr[mid]<arr[mid+1]){
                 st=mid+1;
             }else{
-                end=mid-1;
+                end=mid;
             }
         }
-        return -1;
+        return st; // here we also return e
     }
 }
 // time-complexcity =O(log(n)).
