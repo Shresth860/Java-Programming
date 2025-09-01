@@ -3,10 +3,11 @@ public class scope{
         // Value initialized in the function once afterward u can use that value aur change that value but can't reinitialized that value.
       int a =10;
       int b=20;
+      int c=0;
 
         // BLOCK SCOPE:- Value initialized in this block will use aur access only in this block..
         {
-            int c=45;
+             c=45;
         }
         System.out.println(c);
 

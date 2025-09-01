@@ -4,4 +4,8 @@ public class Array{
             System.out.println(2*i);
         }
     }
+
+    public static boolean toString(int[] nums) {
+        return false;
+    }
 }
