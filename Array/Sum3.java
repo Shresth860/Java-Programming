@@ -5,11 +5,10 @@ import java.util.List;
 
 public class Sum3 {
     public static void main(String[] args) {
-        int[] nums ={-1,2,1,-4};
+        int[] nums ={-1,0,1,2,-1,-4};
         System.out.println(SumThree(nums));
     }
     static List<List<Integer>> SumThree(int[] nums){
-        int target =1;
         Arrays.sort(nums);
         int n =nums.length;
 //        HashSet<List<Integer>> l = new HashSet<>();
@@ -21,7 +20,7 @@ public class Sum3 {
 
             while(j<k){
                 int sum = nums[i]+nums[j]+nums[k];
-                if(sum==target){
+                if(sum==0){
                     ans.add(Arrays.asList(nums[i],nums[j],nums[k]));
                     j++;
                     k--;
